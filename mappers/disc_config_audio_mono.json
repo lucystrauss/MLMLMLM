@@ -1,0 +1,15 @@
+{
+  "discriminator": {
+    "type": "encodec",
+    "config": {
+      "filters": 64,
+      "n_ffts": [2048, 1024, 512, 256, 128],
+      "hop_lengths": [512, 256, 128, 64, 32],
+      "win_lengths": [2048, 1024, 512, 256, 128]
+    },
+    "weights": {
+      "adversarial": 0.1,
+      "feature_matching": 5.0
+    }
+  }
+}

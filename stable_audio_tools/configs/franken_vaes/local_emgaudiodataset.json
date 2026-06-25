@@ -1,0 +1,10 @@
+{
+    "dataset_type": "audio_dir",
+    "datasets": [
+        {
+            "id": "my_audio",
+            "path": "./emgaudio44100Hz"
+        }
+    ],
+    "random_crop": false
+}
